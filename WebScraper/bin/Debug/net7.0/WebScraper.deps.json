@@ -1,0 +1,73 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "WebScraper/1.0.0": {
+        "dependencies": {
+          "CoreHtmlToImage": "1.0.6",
+          "Downloader": "3.0.1",
+          "HtmlAgilityPack": "1.11.46"
+        },
+        "runtime": {
+          "WebScraper.dll": {}
+        }
+      },
+      "CoreHtmlToImage/1.0.6": {
+        "runtime": {
+          "lib/netstandard2.0/CoreHtmlToImage.dll": {
+            "assemblyVersion": "1.0.6.0",
+            "fileVersion": "1.0.6.0"
+          }
+        }
+      },
+      "Downloader/3.0.1": {
+        "runtime": {
+          "lib/net6.0/Downloader.dll": {
+            "assemblyVersion": "3.0.1.0",
+            "fileVersion": "3.0.1.0"
+          }
+        }
+      },
+      "HtmlAgilityPack/1.11.46": {
+        "runtime": {
+          "lib/netstandard2.0/HtmlAgilityPack.dll": {
+            "assemblyVersion": "1.11.46.0",
+            "fileVersion": "1.11.46.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WebScraper/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CoreHtmlToImage/1.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-O5TZhjxIV4T3ayZPLJqLQ/KFhu5NllrLqKi+YbKbmjLs11fPGAxrZkidYAvOSCTFqlEJ92AQX0Epb8m2Q4EH7Q==",
+      "path": "corehtmltoimage/1.0.6",
+      "hashPath": "corehtmltoimage.1.0.6.nupkg.sha512"
+    },
+    "Downloader/3.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Fsl6tHaisoXP1NjbETS+rU1A4zpySUFqCvWyDMD36mBc+mMvZKbHPDmSnq82p0008s0m09vN5K7pDWMD7bA41w==",
+      "path": "downloader/3.0.1",
+      "hashPath": "downloader.3.0.1.nupkg.sha512"
+    },
+    "HtmlAgilityPack/1.11.46": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dLMn4EVfJBHWmWK4Uh0XGD76FPLHI0qr2Tm0s1m/xmgiHb1JUb9zB8AzO8HtrkBBlMN6JfCUBYddhqC0hZNR+g==",
+      "path": "htmlagilitypack/1.11.46",
+      "hashPath": "htmlagilitypack.1.11.46.nupkg.sha512"
+    }
+  }
+}

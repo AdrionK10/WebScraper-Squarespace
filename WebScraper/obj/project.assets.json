@@ -1,0 +1,198 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "CoreHtmlToImage/1.0.6": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/CoreHtmlToImage.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/CoreHtmlToImage.dll": {}
+        }
+      },
+      "Downloader/3.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Downloader.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Downloader.dll": {}
+        }
+      },
+      "HtmlAgilityPack/1.11.46": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/HtmlAgilityPack.dll": {
+            "related": ".deps.json;.pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/HtmlAgilityPack.dll": {
+            "related": ".deps.json;.pdb;.xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CoreHtmlToImage/1.0.6": {
+      "sha512": "O5TZhjxIV4T3ayZPLJqLQ/KFhu5NllrLqKi+YbKbmjLs11fPGAxrZkidYAvOSCTFqlEJ92AQX0Epb8m2Q4EH7Q==",
+      "type": "package",
+      "path": "corehtmltoimage/1.0.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "corehtmltoimage.1.0.6.nupkg.sha512",
+        "corehtmltoimage.nuspec",
+        "lib/netstandard2.0/CoreHtmlToImage.dll"
+      ]
+    },
+    "Downloader/3.0.1": {
+      "sha512": "Fsl6tHaisoXP1NjbETS+rU1A4zpySUFqCvWyDMD36mBc+mMvZKbHPDmSnq82p0008s0m09vN5K7pDWMD7bA41w==",
+      "type": "package",
+      "path": "downloader/3.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "README.md",
+        "downloader.3.0.1.nupkg.sha512",
+        "downloader.nuspec",
+        "downloader.png",
+        "lib/net452/Downloader.dll",
+        "lib/net6.0/Downloader.dll",
+        "lib/netcoreapp3.1/Downloader.dll",
+        "lib/netstandard2.0/Downloader.dll",
+        "lib/netstandard2.1/Downloader.dll"
+      ]
+    },
+    "HtmlAgilityPack/1.11.46": {
+      "sha512": "dLMn4EVfJBHWmWK4Uh0XGD76FPLHI0qr2Tm0s1m/xmgiHb1JUb9zB8AzO8HtrkBBlMN6JfCUBYddhqC0hZNR+g==",
+      "type": "package",
+      "path": "htmlagilitypack/1.11.46",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "htmlagilitypack.1.11.46.nupkg.sha512",
+        "htmlagilitypack.nuspec",
+        "lib/Net35/HtmlAgilityPack.dll",
+        "lib/Net35/HtmlAgilityPack.pdb",
+        "lib/Net35/HtmlAgilityPack.xml",
+        "lib/Net40-client/HtmlAgilityPack.dll",
+        "lib/Net40-client/HtmlAgilityPack.pdb",
+        "lib/Net40-client/HtmlAgilityPack.xml",
+        "lib/Net40/HtmlAgilityPack.XML",
+        "lib/Net40/HtmlAgilityPack.dll",
+        "lib/Net40/HtmlAgilityPack.pdb",
+        "lib/Net45/HtmlAgilityPack.XML",
+        "lib/Net45/HtmlAgilityPack.dll",
+        "lib/Net45/HtmlAgilityPack.pdb",
+        "lib/NetCore45/HtmlAgilityPack.XML",
+        "lib/NetCore45/HtmlAgilityPack.dll",
+        "lib/NetCore45/HtmlAgilityPack.pdb",
+        "lib/netstandard1.3/HtmlAgilityPack.deps.json",
+        "lib/netstandard1.3/HtmlAgilityPack.dll",
+        "lib/netstandard1.3/HtmlAgilityPack.pdb",
+        "lib/netstandard1.3/HtmlAgilityPack.xml",
+        "lib/netstandard1.6/HtmlAgilityPack.deps.json",
+        "lib/netstandard1.6/HtmlAgilityPack.dll",
+        "lib/netstandard1.6/HtmlAgilityPack.pdb",
+        "lib/netstandard1.6/HtmlAgilityPack.xml",
+        "lib/netstandard2.0/HtmlAgilityPack.deps.json",
+        "lib/netstandard2.0/HtmlAgilityPack.dll",
+        "lib/netstandard2.0/HtmlAgilityPack.pdb",
+        "lib/netstandard2.0/HtmlAgilityPack.xml",
+        "lib/portable-net45+netcore45+wp8+MonoAndroid+MonoTouch/HtmlAgilityPack.XML",
+        "lib/portable-net45+netcore45+wp8+MonoAndroid+MonoTouch/HtmlAgilityPack.dll",
+        "lib/portable-net45+netcore45+wp8+MonoAndroid+MonoTouch/HtmlAgilityPack.pdb",
+        "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid+MonoTouch/HtmlAgilityPack.XML",
+        "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid+MonoTouch/HtmlAgilityPack.dll",
+        "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid+MonoTouch/HtmlAgilityPack.pdb",
+        "lib/uap10.0/HtmlAgilityPack.XML",
+        "lib/uap10.0/HtmlAgilityPack.dll",
+        "lib/uap10.0/HtmlAgilityPack.pdb",
+        "lib/uap10.0/HtmlAgilityPack.pri"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "CoreHtmlToImage >= 1.0.6",
+      "Downloader >= 3.0.1",
+      "HtmlAgilityPack >= 1.11.46"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\adrion\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\adrion\\source\\repos\\WebScraper\\WebScraper\\WebScraper.csproj",
+      "projectName": "WebScraper",
+      "projectPath": "C:\\Users\\adrion\\source\\repos\\WebScraper\\WebScraper\\WebScraper.csproj",
+      "packagesPath": "C:\\Users\\adrion\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\adrion\\source\\repos\\WebScraper\\WebScraper\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\adrion\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "dependencies": {
+          "CoreHtmlToImage": {
+            "target": "Package",
+            "version": "[1.0.6, )"
+          },
+          "Downloader": {
+            "target": "Package",
+            "version": "[3.0.1, )"
+          },
+          "HtmlAgilityPack": {
+            "target": "Package",
+            "version": "[1.11.46, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
